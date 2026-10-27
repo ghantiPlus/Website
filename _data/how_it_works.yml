@@ -7,26 +7,26 @@
 # doing. Three steps a side is the ceiling; a fourth means something is being
 # explained that should be shown instead.
 
-title: "How Ghanti+ works"
-subtitle: "Two sides of the same lane. Feriwale go live. Customers get the ghanti."
+title: "How GhantiPlus works"
+subtitle: "Two sides of the same lane. Feriwale go online. Residents get the ghanti."
 
 customer_title: "For customers"
-customer_subtitle: "On the Ghanti+ app for customers"
+customer_subtitle: "In the GhantiPlus app"
 customer_steps:
-  - heading: "Follow"
-    hindi: "फॉलो करो"
-    description: "Follow the feriwale you already buy from — kulfi, sabzi, bike wash, chair repair. They become your regulars, and you stop missing them."
+  - heading: "Pick your area"
+    hindi: "अपना इलाका चुनो"
+    description: "Choose your locality or society once. The feriwale who come to your lane — kulfi, sabzi, bike wash, chair repair — show up for you, so you stop missing them."
 
   - heading: "Get the ghanti"
-    hindi: "फोन पे घंटी"
-    description: "When they go LIVE near your area, Ghanti+ rings a digital bell on your phone. No searching, no waiting at the window."
+    hindi: "ऐप में घंटी"
+    description: "Open the app to see who is online near your society. When a feriwala rings the bell at your gate, it shows up in the app for the next few minutes."
 
   - heading: "Walk over"
     hindi: "जाके ले आओ"
-    description: "They're at your gate or chowk, 200 metres away. Local prices, no delivery fee, no middleman — and repairing beats replacing."
+    description: "They're at your gate or chowk. Local prices, no delivery fee, no middleman — and repairing beats replacing."
 
 peddler_title: "For feriwale & service providers"
-peddler_subtitle: "On the Ghanti+ app for sellers"
+peddler_subtitle: "In the GhantiPlus Partner app"
 peddler_steps:
   - heading: "Upload today"
     hindi: "आज का सामान"
@@ -36,6 +36,6 @@ peddler_steps:
     hindi: "आवाज़ बोलो"
     description: "Record a short voice broadcast in your own language and style. Your voice, not a form."
 
-  - heading: "Go LIVE"
-    hindi: "लाइव जाओ"
-    description: "Tap Go LIVE when you reach the gate. Everyone following you gets the ghanti instantly — no shouting, no hoping someone hears the bell."
+  - heading: "Go online"
+    hindi: "ऑनलाइन जाओ"
+    description: "Tap Go online when you start your round, and ring the bell when you reach a society's gate. Residents see you — no shouting, no hoping someone hears the bell."

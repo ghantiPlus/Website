@@ -8,13 +8,9 @@ data_key: privacy_policy
 <h2>How to Delete Your Account</h2>
 <p>{{ site.data.site.app_name }} respects your right to delete your account and associated data. You can request permanent deletion of your account using either of the methods described below.</p>
 
-<h2>Option 1: Delete Through the App</h2>
+<h2>Option 1: From the App</h2>
 <div class="deletion-path">
-  <ol>
-    {% for step in site.data.legal.account_deletion.in_app_path %}
-      <li>{{ step }}</li>
-    {% endfor %}
-  </ol>
+  <p>In the resident or peddler app, open <strong>{{ site.data.legal.account_deletion.in_app_path | join: " > " }}</strong>. This brings you to this page, where you send the request by email as described below.</p>
 </div>
 
 <h2>Option 2: Request Deletion by Email</h2>
@@ -23,6 +19,7 @@ data_key: privacy_policy
   <p>Please include the following in your email:</p>
   <ul>
     <li>Your registered phone number</li>
+    <li>Which account to delete: resident, peddler, or event organiser (one number can have more than one)</li>
     <li>Reason for deletion (optional)</li>
   </ul>
 </div>
@@ -32,16 +29,18 @@ data_key: privacy_policy
 <ul>
   <li>Profile information</li>
   <li>Phone number</li>
-  <li>Peddler / customer preferences</li>
-  <li>Photos and voice broadcasts you uploaded</li>
-  <li>Your live location history and the places you followed</li>
+  <li>Saved addresses and your chosen locality</li>
+  <li>Photos, posters and voice recordings you uploaded</li>
+  <li>Any peddler location samples still held (these are deleted automatically after {{ site.data.legal.data_retention.location_days }} days in any case)</li>
 </ul>
 
 <h2>What May Be Retained</h2>
 <p>Certain data may be retained to comply with legal obligations:</p>
 <ul>
   <li>Security logs (retained for {{ site.data.legal.data_retention.security_logs_days }} days per DPDP Rules 2025)</li>
-  <li>Aggregated, anonymized data that cannot identify you</li>
+  <li>The record of a peddler's in-person verification, kept as an audit record</li>
+  <li>Usage and crash events, until they reach the end of the retention period in our <a href="/privacy-policy/">Privacy Policy</a></li>
+  <li>Anything we must keep to meet legal obligations or resolve disputes, for up to {{ site.data.legal.data_retention.account_data_after_deletion_days }} days</li>
 </ul>
 
 <h2>Processing Time</h2>
