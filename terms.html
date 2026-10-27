@@ -19,12 +19,13 @@ data_key: terms
 
 <h2>2. Service Description</h2>
 <p>
-  {{ site.data.site.app_name }} is a coordination platform that connects street peddlers with customers in India.
-  The App enables:
+  {{ site.data.site.app_name }} is a coordination platform that connects street peddlers and event organisers with
+  residents ("customers") in India. The App enables:
 </p>
 <ul>
-  <li>Peddlers to share their live location, schedules, and product or service information with nearby customers.</li>
-  <li>Customers to discover, track, and coordinate with street peddlers in their locality.</li>
+  <li>Peddlers to go live, share the day's stops, photos and a voice message, and let residents of a locality know they are nearby.</li>
+  <li>Event organisers to announce camps, fairs and similar events, with the place, dates and a poster.</li>
+  <li>Residents to see which peddlers and events are near them and to send short messages about a peddler's post.</li>
 </ul>
 <p>
   {{ site.data.site.app_name }} is a technology platform only. We do not employ, control, or supervise any peddler.
@@ -39,7 +40,8 @@ data_key: terms
 </p>
 <ul>
   <li>You must provide a valid Indian mobile phone number for registration.</li>
-  <li>Only one account is permitted per phone number.</li>
+  <li>A phone number may hold one account of each type (resident, peddler, event organiser), and no more than one of
+    any type.</li>
   <li>You are responsible for maintaining the confidentiality of your account credentials and for all activities
     that occur under your account.</li>
   <li>You must notify us immediately of any unauthorized use of your account.</li>
@@ -107,6 +109,20 @@ data_key: terms
   other users.
 </p>
 
+<h3>5.4 Messages</h3>
+<p>
+  Residents may send short messages (up to 280 characters) about a peddler's post. Messages are shown without the
+  author's name in a thread shared by the residents of the same housing society, and the sender can withdraw a message.
+  The rules in section 5.1 apply to messages.
+</p>
+
+<h3>5.5 Reporting Content</h3>
+<p>
+  To report content you believe breaks these Terms, or to ask us to remove content about you, write to
+  <a href="mailto:{{ site.data.site.contact_email }}">{{ site.data.site.contact_email }}</a>. We review reports and may
+  remove content or suspend accounts.
+</p>
+
 <h2>6. Peddler Obligations</h2>
 <p>If you use the App as a peddler, you agree to:</p>
 <ul>
@@ -116,6 +132,19 @@ data_key: terms
   <li>Comply with all applicable local, state, and central laws and regulations governing your trade,
     including licensing, food safety, and hygiene requirements where applicable.</li>
   <li>Not use the platform to sell prohibited, illegal, or regulated goods without required permits.</li>
+</ul>
+<p>
+  A peddler may be shown as verified after a person from our local team has checked them in person. Verification
+  records that check only. It is not a warranty of the peddler's goods, services, licences or conduct.
+</p>
+
+<h2>6A. Event Organiser Obligations</h2>
+<p>If you use the App as an event organiser, you agree to:</p>
+<ul>
+  <li>Post only events that you are authorised to run, with accurate place, dates and details.</li>
+  <li>Cancel or reschedule an event in the App if it will not take place as announced.</li>
+  <li>Hold the rights to any poster image or voice message you upload.</li>
+  <li>Comply with the permits and laws that apply to your event.</li>
 </ul>
 
 <h2>7. Customer Obligations</h2>
@@ -216,7 +245,7 @@ data_key: terms
 </p>
 <p>
   <strong>Termination by User:</strong> You may delete your account at any time through
-  {{ site.data.legal.account_deletion.in_app_path | join: " > " }} or by contacting us at
+  {{ site.data.legal.account_deletion.in_app_path | join: " > " }}, on our <a href="/account-deletion/">deletion page</a>, or by contacting us at
   <a href="mailto:{{ site.data.legal.account_deletion.email }}">{{ site.data.legal.account_deletion.email }}</a>.
   Account deletion will be processed within {{ site.data.legal.account_deletion.processing_time }}.
 </p>
@@ -226,7 +255,8 @@ data_key: terms
 <ul>
   <li>Your right to use the App will cease immediately.</li>
   <li>We may retain certain data as required by law or for legitimate business purposes, in accordance with
-    our <a href="/privacy/">Privacy Policy</a>.</li>
+    our <a href="/privacy-policy/">Privacy Policy</a>.</li>
+  <li>Content you posted that other users have already received may remain with them.</li>
 </ul>
 
 <h2>14. Changes to Terms</h2>

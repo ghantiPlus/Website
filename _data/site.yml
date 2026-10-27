@@ -1,8 +1,8 @@
 # Site-wide company and brand information
 # Edit these values to update branding and contact details across all pages
 
-brand_name: "Ghanti+"
-app_name: "Ghanti+"
+brand_name: "GhantiPlus"
+app_name: "GhantiPlus"
 tagline: "Aapke feriwale ab online hain."
 
 # Company details (must match Google Play Console registration and DLT records exactly)
@@ -15,7 +15,7 @@ duns: "767598484"
 contact_email: "[UPDATE: support@ghantiplus.com]" # Update with actual support email
 contact_phone: "+919271237273"
 whatsapp_number: "919271237273" # Without + prefix, used in wa.me links
-whatsapp_message: "Hi Ghanti+! I want early access." # Pre-filled WhatsApp message
+whatsapp_message: "Hi GhantiPlus! I want early access." # Pre-filled WhatsApp message
 
 # URLs (update with real values)
 url: "https://www.ghantiplus.com"

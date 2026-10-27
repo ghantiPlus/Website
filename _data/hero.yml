@@ -1,6 +1,6 @@
 # Hero — the whole proposition above the fold, then one action.
 #
-# `positioning` was its own full section ("What Ghanti+ Is / Is Not"). It is the
+# `positioning` was its own full section ("What GhantiPlus Is / Is Not"). It is the
 # sharpest line on the site and it was sitting below the fold behind a heading
 # nobody needed; it belongs here, where it does its work in one breath.
 #
@@ -9,19 +9,13 @@
 
 video:
   youtube_id: "A3FuaDJOvzU"
-  title: "Ghanti+ story — the digital bell for feriwale"
-  autoplay: false
-  mute: false
-  loop: false
+  title: "GhantiPlus story — the digital bell for feriwale"
 
 headline_hindi: "Aapke feriwale ab online hain."
-headline: "Your local feriwale are now online."
 
-subhead: "Kulfiwala, repairwala, sabziwala, bike washer, ganne ka ras — when they come near your gate, Ghanti+ rings their digital bell on your phone."
+subhead: "Kulfiwala, repairwala, sabziwala, bike washer, ganne ka ras — see who is online near your society, and when one rings the digital bell at your gate, GhantiPlus shows it in the app."
 
 positioning: "Not a map. Not a shop. Just a digital ghanti."
-
-caption: "See how Ghanti+ gives every feriwala a digital voice"
 
 cta_text: "Get Early Access on WhatsApp"
 

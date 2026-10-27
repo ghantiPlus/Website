@@ -12,7 +12,7 @@
 # they are the only human content on the page.
 
 title: "Who comes to your lane"
-subtitle: "Some come every week. Some come once. Ghanti+ tells you when either is at your gate."
+subtitle: "Some come every week. Some come once. GhantiPlus shows you when either is near your society."
 
 recurring:
   heading: "Feriwale — every week"
@@ -33,4 +33,4 @@ recurring:
 occasional:
   heading: "Shibirs & melas — once"
   description: "Health, dental, eye and Aadhaar camps. Fairs, exhibitions and society events. Announced before the day — with the ground, the timing, and what to bring — so you can plan around them instead of hearing about it afterwards."
-  organiser_note: "Running a camp or a mela? Post it on the Carnival app with its date, place and poster. Every household in that area sees it — no printing, no pasting, no loudspeaker round."
+  organiser_note: "Running a camp or a mela? Post it in the GhantiPlus Organiser app with its date, place and poster. Residents of that area see it in the GhantiPlus app — no printing, no pasting, no loudspeaker round."

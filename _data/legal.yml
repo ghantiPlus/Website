@@ -18,18 +18,19 @@ grievance_officer:
 account_deletion:
   email: "[UPDATE: delete@ghantiplus.com]"
   processing_time: "30 days"
+  # The resident and peddler apps have a "Delete account" row on the Account /
+  # Profile screen that opens the website's deletion page. The apps do not
+  # delete anything themselves; the request is handled by email.
   in_app_path:
-    - "Open the Ghanti+ app"
-    - "Go to Settings"
-    - "Tap Account"
-    - "Tap Delete Account"
-    - "Confirm deletion"
+    - "Account or Profile"
+    - "Delete account"
 
 # Third-party services (must be disclosed in Privacy Policy).
 # Verified against the backend — do not add a provider that isn't wired up.
 third_parties:
   sms_gateway: "MSG91" # ADR-014; OTP + transactional delivery
   cloud_provider: "CloudPe" # Application hosting and S3-compatible media storage
+  map_provider: "OpenFreeMap" # Map tiles in the peddler and carnival apps (config/map.ts)
   # No third-party analytics SDK is used. Usage analytics are first-party
   # (`app_events`), collected on our own infrastructure — see the Analytics
   # section of the Privacy Policy.
@@ -37,21 +38,20 @@ third_parties:
 
 # Data retention — each figure below matches a worker that actually runs.
 data_retention:
-  # Dakghar.Workers.ArchivePresencePulses — @retention_days 30.
-  # Live location moves to an archive table after this; it is not deleted.
+  # Dakghar.Workers.SignalPartitions — @retention_days 30; the day's table is dropped.
   location_days: 30
-  # Dakghar.Workers.ArchiveAppEvents — @retention_days 180.
+  # Dakghar.Workers.ArchiveAppEvents — @retention_days 180, then copied unchanged
+  # to app_events_archive, which is purged at @archive_retention_days 730.
   usage_days: 180
+  usage_archive_days: 730
   security_logs_days: 365 # Minimum 1 year per DPDP Rules 2025
   account_data_after_deletion_days: 90 # Grace period for legal obligations
 
-# Policy dates — bumped when the substance changes, which it did on this pass
-# (removed the Coin economy, ratings/reviews collection, and payment processors,
-# none of which existed).
+# Policy dates — bumped when the substance changes.
 privacy_policy:
   effective_date: "2026-08-13"
-  last_updated: "2026-08-13"
+  last_updated: "2026-10-26"
 
 terms:
   effective_date: "2026-08-13"
-  last_updated: "2026-08-13"
+  last_updated: "2026-10-26"
